@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "start": "nodemon server/server.js --exec babel-node --watch . --ignore server/public --ignore app",
-    "build": "babel server.js -d dist",
-    "serve": "node dist/server.js"
+    "build": "babel server/server.js -d dist",
+    "serve": "node dist/server/server.js"
   },
   "dependencies": {
     "express": "^4.15.3",
